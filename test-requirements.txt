@@ -1,1 +1,1 @@
-git+https://github.com/open-synergy/ssi-app-store@14.0#subdirectory=muk_rest
+git+https://github.com/open-synergy/ssi-app-store@14.0#subdirectory=setup/muk_rest
