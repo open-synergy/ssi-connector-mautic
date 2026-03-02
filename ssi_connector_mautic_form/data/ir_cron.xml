@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<odoo>
+    <!-- Sequence for mautic.webhook.queue references -->
+    <record id="seq_mautic_webhook_queue" model="ir.sequence">
+        <field name="name">Mautic Webhook Queue</field>
+        <field name="code">mautic.webhook.queue</field>
+        <field name="prefix">MWQ/%(y)s/%(month)s/</field>
+        <field name="padding">4</field>
+        <field name="company_id" eval="False" />
+    </record>
+
+    <!-- Cron job: process draft webhook queue records -->
+    <record id="ir_cron_process_mautic_webhook_queue" model="ir.cron">
+        <field name="name">Mautic: Process Webhook Queue</field>
+        <field name="model_id" ref="model_mautic_webhook_queue" />
+        <field name="state">code</field>
+        <field name="code">model.cron_process_queue()</field>
+        <field name="interval_number">5</field>
+        <field name="interval_type">minutes</field>
+        <field name="numbercall">-1</field>
+        <field name="active" eval="True" />
+        <field name="doall" eval="False" />
+    </record>
+</odoo>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<odoo noupdate="1">
+    <!--
+        MUK REST API Endpoint: Mautic Webhook Receiver
+        ================================================
+        Exposes a POST endpoint at /api/custom/mautic/webhook/queue
+        that allows Mautic to create records directly in the
+        mautic.webhook.queue staging table.
+
+        The endpoint uses Python code evaluation to parse the incoming
+        JSON payload and create the queue record with the raw payload
+        data stored as text.
+    -->
+    <record id="muk_rest_endpoint_mautic_webhook_queue" model="muk_rest.endpoint">
+        <field name="name">Mautic Webhook Queue - Create</field>
+        <field name="endpoint">mautic/webhook/queue</field>
+        <field name="model_id" ref="model_mautic_webhook_queue" />
+        <field name="method">POST</field>
+        <field name="state">code</field>
+        <field name="protected" eval="True" />
+        <field name="eval_sudo" eval="True" />
+        <field name="logging" eval="True" />
+        <field name="code">
+payload = params or {}
+payload_str = json.dumps(payload)
+
+record = model.sudo().create({
+    "payload_data": payload_str,
+    "state": "draft",
+})
+
+result = {
+    "id": record.id,
+    "name": record.name,
+    "state": record.state,
+}
+</field>
+        <field name="docs_summary">Receive Mautic Webhook</field>
+        <field name="docs_description">
+Receives a POST request from Mautic containing a form submission webhook
+payload. The raw JSON payload is stored in the mautic.webhook.queue staging
+table for asynchronous processing into CRM leads.
+        </field>
+    </record>
+</odoo>

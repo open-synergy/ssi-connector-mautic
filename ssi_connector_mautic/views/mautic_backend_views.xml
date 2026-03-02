@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<odoo>
+    <!-- Backend form view -->
+    <record id="view_mautic_backend_form" model="ir.ui.view">
+        <field name="name">mautic.backend.form</field>
+        <field name="model">mautic.backend</field>
+        <field name="arch" type="xml">
+            <form string="Mautic Backend">
+                <sheet>
+                    <widget
+                        name="web_ribbon"
+                        title="Archived"
+                        bg_color="bg-danger"
+                        attrs="{'invisible': [('active', '=', True)]}"
+                    />
+                    <div class="oe_title">
+                        <label for="name" />
+                        <h1><field name="name" placeholder="Backend Name" /></h1>
+                    </div>
+                    <group>
+                        <group string="Configuration">
+                            <field name="version" />
+                        </group>
+                        <group string="General">
+                            <field name="company_id" />
+                            <field name="active" />
+                        </group>
+                    </group>
+                </sheet>
+            </form>
+        </field>
+    </record>
+
+    <!-- Backend list/tree view -->
+    <record id="view_mautic_backend_tree" model="ir.ui.view">
+        <field name="name">mautic.backend.tree</field>
+        <field name="model">mautic.backend</field>
+        <field name="arch" type="xml">
+            <tree string="Mautic Backends">
+                <field name="name" />
+                <field name="version" />
+                <field name="company_id" />
+                <field name="active" />
+            </tree>
+        </field>
+    </record>
+
+    <!-- Backend action -->
+    <record id="action_mautic_backend" model="ir.actions.act_window">
+        <field name="name">Mautic Backends</field>
+        <field name="res_model">mautic.backend</field>
+        <field name="view_mode">tree,form</field>
+    </record>
+</odoo>
