@@ -1,0 +1,146 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* ssi_connector_mautic
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 14.0\n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: ssi_connector_mautic
+#: model:ir.model.fields,field_description:ssi_connector_mautic.field_mautic_backend__active
+msgid "Active"
+msgstr ""
+
+#. module: ssi_connector_mautic
+#: model_terms:ir.ui.view,arch_db:ssi_connector_mautic.view_mautic_backend_form
+msgid "Archived"
+msgstr ""
+
+#. module: ssi_connector_mautic
+#: model_terms:ir.ui.view,arch_db:ssi_connector_mautic.view_mautic_backend_form
+msgid "Backend Name"
+msgstr ""
+
+#. module: ssi_connector_mautic
+#: model:ir.ui.menu,name:ssi_connector_mautic.menu_mautic_backend
+msgid "Backends"
+msgstr ""
+
+#. module: ssi_connector_mautic
+#: model:ir.model.fields,field_description:ssi_connector_mautic.field_mautic_backend__company_id
+msgid "Company"
+msgstr ""
+
+#. module: ssi_connector_mautic
+#: model:ir.ui.menu,name:ssi_connector_mautic.menu_mautic_configuration
+#: model_terms:ir.ui.view,arch_db:ssi_connector_mautic.view_mautic_backend_form
+msgid "Configuration"
+msgstr ""
+
+#. module: ssi_connector_mautic
+#: model:ir.model.fields,field_description:ssi_connector_mautic.field_mautic_backend__create_uid
+msgid "Created by"
+msgstr ""
+
+#. module: ssi_connector_mautic
+#: model:ir.model.fields,field_description:ssi_connector_mautic.field_mautic_backend__create_date
+msgid "Created on"
+msgstr ""
+
+#. module: ssi_connector_mautic
+#: model:ir.model.fields,field_description:ssi_connector_mautic.field_mautic_backend__display_name
+#: model:ir.model.fields,field_description:ssi_connector_mautic.field_mautic_binding__display_name
+msgid "Display Name"
+msgstr ""
+
+#. module: ssi_connector_mautic
+#: model_terms:ir.ui.view,arch_db:ssi_connector_mautic.view_mautic_backend_form
+msgid "General"
+msgstr ""
+
+#. module: ssi_connector_mautic
+#: model:ir.model.fields,field_description:ssi_connector_mautic.field_mautic_backend__id
+#: model:ir.model.fields,field_description:ssi_connector_mautic.field_mautic_binding__id
+msgid "ID"
+msgstr ""
+
+#. module: ssi_connector_mautic
+#: model:ir.model.fields,field_description:ssi_connector_mautic.field_mautic_backend____last_update
+#: model:ir.model.fields,field_description:ssi_connector_mautic.field_mautic_binding____last_update
+msgid "Last Modified on"
+msgstr ""
+
+#. module: ssi_connector_mautic
+#: model:ir.model.fields,field_description:ssi_connector_mautic.field_mautic_binding__sync_date
+msgid "Last Synchronization"
+msgstr ""
+
+#. module: ssi_connector_mautic
+#: model:ir.model.fields,field_description:ssi_connector_mautic.field_mautic_backend__write_uid
+msgid "Last Updated by"
+msgstr ""
+
+#. module: ssi_connector_mautic
+#: model:ir.model.fields,field_description:ssi_connector_mautic.field_mautic_backend__write_date
+msgid "Last Updated on"
+msgstr ""
+
+#. module: ssi_connector_mautic
+#: model:ir.model.fields.selection,name:ssi_connector_mautic.selection__mautic_backend__version__3
+msgid "Mautic 3"
+msgstr ""
+
+#. module: ssi_connector_mautic
+#: model:ir.model.fields.selection,name:ssi_connector_mautic.selection__mautic_backend__version__4
+msgid "Mautic 4"
+msgstr ""
+
+#. module: ssi_connector_mautic
+#: model:ir.model.fields.selection,name:ssi_connector_mautic.selection__mautic_backend__version__5
+msgid "Mautic 5"
+msgstr ""
+
+#. module: ssi_connector_mautic
+#: model:ir.model,name:ssi_connector_mautic.model_mautic_backend
+#: model:ir.model.fields,field_description:ssi_connector_mautic.field_mautic_binding__backend_id
+#: model_terms:ir.ui.view,arch_db:ssi_connector_mautic.view_mautic_backend_form
+msgid "Mautic Backend"
+msgstr ""
+
+#. module: ssi_connector_mautic
+#: model:ir.actions.act_window,name:ssi_connector_mautic.action_mautic_backend
+#: model_terms:ir.ui.view,arch_db:ssi_connector_mautic.view_mautic_backend_tree
+msgid "Mautic Backends"
+msgstr ""
+
+#. module: ssi_connector_mautic
+#: model:ir.model,name:ssi_connector_mautic.model_mautic_binding
+msgid "Mautic Binding (abstract)"
+msgstr ""
+
+#. module: ssi_connector_mautic
+#: model:ir.ui.menu,name:ssi_connector_mautic.menu_mautic_root
+msgid "Mautic Connector"
+msgstr ""
+
+#. module: ssi_connector_mautic
+#: model:ir.model.fields,field_description:ssi_connector_mautic.field_mautic_binding__mautic_id
+msgid "Mautic ID"
+msgstr ""
+
+#. module: ssi_connector_mautic
+#: model:ir.model.fields,field_description:ssi_connector_mautic.field_mautic_backend__name
+msgid "Name"
+msgstr ""
+
+#. module: ssi_connector_mautic
+#: model:ir.model.fields,field_description:ssi_connector_mautic.field_mautic_backend__version
+msgid "Version"
+msgstr ""
