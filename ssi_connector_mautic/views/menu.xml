@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<odoo>
+    <!-- Main menu: Mautic Connector -->
+    <menuitem
+        id="menu_mautic_root"
+        name="Mautic Connector"
+        groups="connector.group_connector_manager"
+        sequence="50"
+    />
+
+    <menuitem
+        id="menu_mautic_configuration"
+        name="Configuration"
+        parent="menu_mautic_root"
+        sequence="100"
+    />
+
+    <menuitem
+        id="menu_mautic_backend"
+        name="Backends"
+        parent="menu_mautic_configuration"
+        action="action_mautic_backend"
+        sequence="10"
+    />
+</odoo>
