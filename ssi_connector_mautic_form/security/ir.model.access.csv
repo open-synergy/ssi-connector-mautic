@@ -1,0 +1,5 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_mautic_webhook_queue_manager,mautic.webhook.queue manager,model_mautic_webhook_queue,connector.group_connector_manager,1,1,1,1
+access_mautic_webhook_queue_user,mautic.webhook.queue user,model_mautic_webhook_queue,base.group_user,1,0,0,0
+access_mautic_crm_lead_manager,mautic.crm.lead manager,model_mautic_crm_lead,connector.group_connector_manager,1,1,1,1
+access_mautic_crm_lead_user,mautic.crm.lead user,model_mautic_crm_lead,base.group_user,1,0,0,0
