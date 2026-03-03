@@ -273,6 +273,12 @@ msgid "Font awesome icon e.g. fa-tasks"
 msgstr ""
 
 #. module: ssi_connector_mautic_form
+#: model:ir.actions.act_window,name:ssi_connector_mautic_form.action_mautic_webhook_queue
+#: model:ir.ui.menu,name:ssi_connector_mautic_form.menu_mautic_webhook_queue
+msgid "Forms"
+msgstr ""
+
+#. module: ssi_connector_mautic_form
 #: model:ir.model.fields,field_description:ssi_connector_mautic_form.field_mautic_crm_lead__id
 #: model:ir.model.fields,field_description:ssi_connector_mautic_form.field_mautic_webhook_queue__id
 msgid "ID"
@@ -762,12 +768,6 @@ msgstr ""
 #. module: ssi_connector_mautic_form
 #: model:ir.model.fields,field_description:ssi_connector_mautic_form.field_mautic_crm_lead__user_login
 msgid "User Login"
-msgstr ""
-
-#. module: ssi_connector_mautic_form
-#: model:ir.actions.act_window,name:ssi_connector_mautic_form.action_mautic_webhook_queue
-#: model:ir.ui.menu,name:ssi_connector_mautic_form.menu_mautic_webhook_queue
-msgid "Webhook Queue"
 msgstr ""
 
 #. module: ssi_connector_mautic_form
