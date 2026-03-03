@@ -34,6 +34,11 @@ msgid "Backends"
 msgstr ""
 
 #. module: ssi_connector_mautic
+#: model:ir.ui.menu,name:ssi_connector_mautic.menu_mautic_binding
+msgid "Bindings"
+msgstr ""
+
+#. module: ssi_connector_mautic
 #: model:ir.model.fields,field_description:ssi_connector_mautic.field_mautic_backend__company_id
 msgid "Company"
 msgstr ""
@@ -93,6 +98,11 @@ msgid "Last Updated on"
 msgstr ""
 
 #. module: ssi_connector_mautic
+#: model:ir.ui.menu,name:ssi_connector_mautic.menu_mautic_root
+msgid "Mautic"
+msgstr ""
+
+#. module: ssi_connector_mautic
 #: model:ir.model.fields.selection,name:ssi_connector_mautic.selection__mautic_backend__version__3
 msgid "Mautic 3"
 msgstr ""
@@ -126,11 +136,6 @@ msgid "Mautic Binding (abstract)"
 msgstr ""
 
 #. module: ssi_connector_mautic
-#: model:ir.ui.menu,name:ssi_connector_mautic.menu_mautic_root
-msgid "Mautic Connector"
-msgstr ""
-
-#. module: ssi_connector_mautic
 #: model:ir.model.fields,field_description:ssi_connector_mautic.field_mautic_binding__mautic_id
 msgid "Mautic ID"
 msgstr ""
@@ -143,4 +148,9 @@ msgstr ""
 #. module: ssi_connector_mautic
 #: model:ir.model.fields,field_description:ssi_connector_mautic.field_mautic_backend__version
 msgid "Version"
+msgstr ""
+
+#. module: ssi_connector_mautic
+#: model:ir.ui.menu,name:ssi_connector_mautic.menu_mautic_webhook_queue
+msgid "Webhook Queues"
 msgstr ""
