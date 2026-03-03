@@ -21,8 +21,8 @@ Available addons
 ----------------
 addon | version | maintainers | summary
 --- | --- | --- | ---
-[ssi_connector_mautic](ssi_connector_mautic/) | 14.0.1.0.0 |  | Mautic Connector
-[ssi_connector_mautic_form](ssi_connector_mautic_form/) | 14.0.1.0.0 |  | Mautic Connector - Form Webhook Queue
+[ssi_connector_mautic](ssi_connector_mautic/) | 14.0.2.0.0 |  | Mautic Connector
+[ssi_connector_mautic_form](ssi_connector_mautic_form/) | 14.0.2.0.0 |  | Mautic Connector - Form Webhook Queue
 
 [//]: # (end addons)
 
