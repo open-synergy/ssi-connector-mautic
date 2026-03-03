@@ -51,4 +51,13 @@
         <field name="res_model">mautic.backend</field>
         <field name="view_mode">tree,form</field>
     </record>
+
+    <menuitem
+        id="menu_mautic_backend"
+        name="Backends"
+        parent="menu_mautic_configuration"
+        groups="connector.group_connector_manager"
+        action="action_mautic_backend"
+        sequence="10"
+    />
 </odoo>

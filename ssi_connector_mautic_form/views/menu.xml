@@ -3,8 +3,8 @@
     <!-- Menu entry under Mautic Connector root -->
     <menuitem
         id="menu_mautic_webhook_queue"
-        name="Webhook Queue"
-        parent="ssi_connector_mautic.menu_mautic_root"
+        name="Forms"
+        parent="ssi_connector_mautic.menu_mautic_webhook_queue"
         action="action_mautic_webhook_queue"
         sequence="20"
         groups="connector.group_connector_manager"

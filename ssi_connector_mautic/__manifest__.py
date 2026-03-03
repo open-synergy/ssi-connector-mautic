@@ -13,11 +13,12 @@
         "queue_job",
         "component",
         "connector",
+        "ssi_connector",
     ],
     "data": [
         "security/ir.model.access.csv",
-        "views/mautic_backend_views.xml",
         "views/menu.xml",
+        "views/mautic_backend_views.xml",
     ],
     "installable": True,
 }
